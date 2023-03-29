@@ -1,11 +1,39 @@
 body {
-  background-color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
   color: rgb(255, 255, 255);
   min-height: 98vh;
 }
+
+.bg-pan-top {
+	-webkit-animation: bg-pan-top 8s both;
+	        animation: bg-pan-top 8s both;
+}
+
+@-webkit-keyframes color-change-3x {
+  0% {
+    background: #19dcea;
+  }
+  50% {
+    background: #b22cff;
+  }
+  100% {
+    background: #ea2222;
+  }
+}
+@keyframes color-change-3x {
+  0% {
+    background: #19dcea;
+  }
+  50% {
+    background: #b22cff;
+  }
+  100% {
+    background: #ea2222;
+  }
+}
+
 
 @font-face {
   font-family: "Comfy";
