@@ -68,7 +68,7 @@ a:hover {
 
 @media (max-width: 600px) {
   body {
-    background-color: #57C5B6
+    background-color: #57C5B6;
     display: flex;
     justify-content: center;
     align-items: center;
