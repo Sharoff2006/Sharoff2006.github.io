@@ -1,5 +1,5 @@
 body {
-  background-color: dark green;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,7 +68,7 @@ a:hover {
 
 @media (max-width: 600px) {
   body {
-    background-color: #57C5B6;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +80,7 @@ a:hover {
     src: url(Fonts/Comfortaa-Bold.woff) format("woff");
   }
   .container {
-    border: 6px solid #002B5B;
+    border: 6px solid #F38181;
     font-family: "Comfy", cursive;
     justify-content: center;
     align-items: center;
@@ -97,7 +97,7 @@ a:hover {
     margin: 20px;
     margin-top: 40px;
     padding: 15px;
-    border: 3px solid #002B5B;
+    border: 3px solid #F38181;
   }
   h1 {
     margin: 10px;
@@ -112,7 +112,7 @@ a:hover {
     text-decoration: none;
     color: black;
     border-radius: 30px;
-    background-color: #002B5B;
+    background-color: #F38181;
     padding: 20px;
     padding-left: 63px;
     padding-right: 63px;
